@@ -150,6 +150,7 @@ add_action( 'widgets_init', 'dr_isah_widgets_init' );
  */
 function dr_isah_scripts() {
 	wp_enqueue_style( 'dr-isah-style', get_stylesheet_uri(), array(), DR_ISAH_VERSION );
+	wp_enqueue_style('style', get_template_directory_uri() . '/css/main.css', array(), false, 'all');
 	wp_enqueue_script( 'dr-isah-script', get_template_directory_uri() . '/js/script.min.js', array(), DR_ISAH_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

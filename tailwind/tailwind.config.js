@@ -14,6 +14,9 @@ module.exports = {
 	theme: {
 		// Extend the default Tailwind theme.
 		extend: {
+			colors: {
+				'blue': '#0000ff',
+			},
 
 		},
 	},

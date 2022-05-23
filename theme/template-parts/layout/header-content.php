@@ -9,35 +9,40 @@
 
 ?>
 
-<header id="masthead">
-	<div>
-		<?php
-		the_custom_logo();
-		if ( is_front_page() ) :
-			?>
-			<h1><?php bloginfo( 'name' ); ?></h1>
-			<?php
-		else :
-			?>
-			<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-		endif;
-		$dr_isah_description = get_bloginfo( 'description', 'display' );
-		if ( $dr_isah_description || is_customize_preview() ) :
-			?>
-			<p><?php echo $dr_isah_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-		<?php endif; ?>
-	</div>
-
-	<nav id="site-navigation">
-		<button aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'dr-isah' ); ?></button>
+<header class="header topbar absolute w-full top-0 z-50">
+		<section class="menu flex flex-col lg:flex-row lg:justify-between justify-center items-between max-w-6xl gap-2 md:gap-6 mx-auto md:p-4">
+			<div class="flex justify-between items-center p-4 h-20">
+				<div class="h-auto w-24">
+					<a href="<?php $uploads = wp_upload_dir();?>">
+						<?php 
+						if ( function_exists( 'the_custom_logo' ) ) {
+							the_custom_logo();
+						}
+						?>
+					</a>	
+				</div>
+		
+				<div class="flex md:hidden hamburger-menu">
+					<span class="flex justify-center items-center h-10 w-10 rounded-sm bg-white">
+						<i class="fas fa-bars text-light-green hamburger-menu text-2xl"></i>
+					</span>
+				</div>
+			</div>
+		<!-- <button aria-controls="primary-menu" aria-expanded="false"><?php //esc_html_e( 'Primary Menu', 'duromedia' ); ?></button> -->
 		<?php
 		wp_nav_menu(
 			array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
+			'theme_location' => 'menu-1',
+			'menu'              => "primary", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
+			'menu_class'        => "main-menu flex flex-col lg:flex-row py-5 lg:py-0 lg:items-center gap-4 lg:gap-0 md:max-w-lg lg:max-w-full", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
+			'container'         => "nav", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
+			'container_class'   => "flex flex-col justify-center lg:flex lg:flex-row lg:justify-end lg:items-center bg-green-light",
+			'depth'             => "0", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
+			'item_spacing'      => "discard", // (string) Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'. Default 'preserve'.
 			)
 		);
-		?>
-	</nav><!-- #site-navigation -->
-</header><!-- #masthead -->
+		?><!-- #site-navigation -->
+		</section>
+
+		
+	</header><!-- #masthead -->

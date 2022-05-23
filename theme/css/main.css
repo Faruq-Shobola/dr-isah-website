@@ -1,0 +1,33 @@
+/****************
+*** MENU
+*****************/
+
+.menu ul.main-menu > li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.menu ul.main-menu > li a {
+    color: #000;
+    padding: 10px 20px;
+    transition: 0.2s all;
+    font-weight: 600;
+}
+.menu ul.main-menu > li a:hover {
+    color: blue;
+}
+.menu ul.main-menu > li:last-child a {
+    border: 2px solid blue;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.menu ul.main-menu > li:last-child a:hover {
+    border: 2px solid blue;
+    background-color: transparent;
+    color: blue;
+}
+.menu ul.main-menu > li.current_page_item  a {
+	color: blue;
+}
