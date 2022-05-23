@@ -13,27 +13,29 @@ get_header();
 <!-------------------------------- 
 /// 01   HERO SECTION
 ---------------------------------->
-<section class="hero bg-green-dark text-white px-4 relative">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 py-10">
+<section class="hero bg-green-dark  px-4 relative">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
         <!------------ COLUMN 1 ------------>
-        <div class="flex flex-col justify-center gap-3 py-20 w-">
-            <h2 class="flex flex-col text-4xl md:text-6xl text-capitalize font-bold">
-            An Islamic <br>School for all Children
+        <div class="flex flex-col justify-center gap-3 py-20">
+            <p class="text-blue text-2xl font-semibold capitalize">dr. isah tosin</p>
+            <h2 class="flex flex-col text-4xl md:text-5xl text-capitalize font-bold">
+                Promoting women’s health, saving lives
             </h2>
             <!------ Paragraph ------>
             <p class="md:w-5/6 my-4 text-base capitalize">A Montessori cum Islamic curriculum based educational institute in the heart of Lagos. AT AR-RAHMAN Montessori Schools, we re-shape education.
             </p>
             <!------ Button ------>
             <div class="btn flex gap-4">
-                <a href="<?php wp_upload_dir();?>/contact-us" class="border border-yellow hover:border-yellow  bg-yellow  hover:bg-green-dark text-white hover:text-yellow w-40 py-3 text-center rounded-full font-semibold capitalize">contact us</a>
-                <a href="<?php wp_upload_dir();?>/programs" class="border border-white text-white hover:bg-white hover:text-green-dark w-40 py-3 text-center rounded-full font-semibold capitalize">our programs</a>
+                <a href="<?php wp_upload_dir();?>/contact-us" class="border border-blue hover:border-blue  bg-blue  hover:bg-green-dark text-white hover:text-white w-40 py-3 text-center rounded-full font-semibold capitalize">contact us</a>
+                <a href="<?php wp_upload_dir();?>/programs" class="border border-blue text-blue hover:bg-white hover:text-green-dark w-40 py-3 text-center rounded-full font-semibold capitalize">our programs</a>
                 
             </div>
+            <div class=""><p class=" capitalize font-semibold text-lg"><span class="text-4xl font-bold text-blue pr-3">10+</span>years working experience</p></div>
         </div>
         <!------------ COLUMN 2 ------------>
         <div class="hidden md:flex items-center justify-center h-full">
-            <div class="img_container overflow-hidden w-8/12 h-4/5 bg-green-dark  flex justify-center items-center">
-                <img src="<?php wp_upload_dir(); ?>/wp-content/themes/ar-rahman-school/images/1641804112511.jpg" class="w-full h-full object-cover" alt="">
+            <div class="img_container overflow-hidden w-8/12 h-4/5 flex justify-center items-center">
+                <img src="https://pngimg.com/uploads/doctor/doctor_PNG15988.png" class="w-full h-full object-contain" alt="">
             </div>
         </div>
     </div>
@@ -223,7 +225,7 @@ get_header();
                 </div>
                 <!-------------- BUTTON -------------->
                 <div class="btn flex justify-end">
-                    <a href="<?php wp_upload_dir();?>/schedule-a-tour" class="inline-flex border border-yellow hover:border-yellow  bg-yellow  hover:bg-green-light text-white hover:text-yellow font-medium items-center px-6 py-2 rounded-full">schedule tour</a>
+                    <a href="<?php wp_upload_dir();?>/schedule-a-tour" class="inline-flex border border-blue hover:border-yellow  bg-yellow  hover:bg-green-light text-white hover:text-yellow font-medium items-center px-6 py-2 rounded-full">schedule tour</a>
                 </div>
             </div>
     
