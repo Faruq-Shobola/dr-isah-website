@@ -14,3 +14,24 @@ function dr_isah_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'dr_isah_pingback_header' );
+
+
+/**
+ * Add a Event Custom Post 
+ */
+function events_post_type() {
+	$args = array(
+		'labels'      => array(
+		  'name'          => 'Events',
+		  'singular_name' => 'Event',
+		),
+		'public'      => true,
+		'hierarchical' => true,
+		'has_archive' => true,
+		'rewrite'     => array( 'slug' => 'event' ),
+		'supports' =>  array('title', 'editor', 'tag', 'thumbnail', 'custom-fields'),
+		
+	  );
+	  register_post_type('events', $args );
+}
+add_action('init', 'events_post_type');

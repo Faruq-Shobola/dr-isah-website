@@ -13,119 +13,205 @@ get_header();
 <!-------------------------------- 
 /// 01   HERO SECTION
 ---------------------------------->
-<section class="hero bg-green-dark  px-4 relative">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-        <!------------ COLUMN 1 ------------>
-        <div class="flex flex-col justify-center gap-3 py-20">
-            <p class="text-blue text-2xl font-semibold capitalize">dr. isah tosin</p>
-            <h2 class="flex flex-col text-4xl md:text-5xl text-capitalize font-bold">
-                Promoting women’s health, saving lives
-            </h2>
-            <!------ Paragraph ------>
-            <p class="md:w-5/6 my-4 text-base capitalize">A Montessori cum Islamic curriculum based educational institute in the heart of Lagos. AT AR-RAHMAN Montessori Schools, we re-shape education.
-            </p>
-            <!------ Button ------>
-            <div class="btn flex gap-4">
-                <a href="<?php wp_upload_dir();?>/contact-us" class="border border-blue hover:border-blue  bg-blue  hover:bg-green-dark text-white hover:text-white w-40 py-3 text-center rounded-full font-semibold capitalize">contact us</a>
-                <a href="<?php wp_upload_dir();?>/programs" class="border border-blue text-blue hover:bg-white hover:text-green-dark w-40 py-3 text-center rounded-full font-semibold capitalize">our programs</a>
-                
-            </div>
-            <div class=""><p class=" capitalize font-semibold text-lg"><span class="text-4xl font-bold text-blue pr-3">10+</span>years working experience</p></div>
-        </div>
-        <!------------ COLUMN 2 ------------>
-        <div class="hidden md:flex items-center justify-center h-full">
-            <div class="img_container overflow-hidden w-8/12 h-4/5 flex justify-center items-center">
-                <img src="https://pngimg.com/uploads/doctor/doctor_PNG15988.png" class="w-full h-full object-contain" alt="">
-            </div>
-        </div>
+<section class="relative bg-white">
+  <img
+    class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
+    src="https://images.unsplash.com/photo-1601758003122-53c40e686a19"
+    alt="Couple on a bed with a dog"
+  />
+
+  <div class="relative max-w-screen-xl px-4 py-32 mx-auto lg:items-center lg:flex">
+    <div class="max-w-xl text-center sm:text-left">
+      <h1 class="text-3xl font-extrabold sm:text-5xl">
+        Let us find your
+        <strong class="font-extrabold text-rose-700 sm:block">
+          Forever Home.
+        </strong>
+      </h1>
+
+      <p class="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
+      </p>
+
+      <div class="flex flex-wrap gap-4 mt-8 text-center">
+        <a class="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-rose-600 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring" href="/get-started">
+          Get Started
+        </a>
+
+        <a class="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-rose-600 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring" href="/about">
+          Learn More
+        </a>
+      </div>
     </div>
+  </div>
 </section>
+
 <!-------------------------------- 
-/// 02   ABOUT SECTION
+/// 02    SECTION
 ---------------------------------->
-<section class="py-20 px-4">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-        <!------------ COLUMN 1 ------------>
-        <div class="flex justify-end">
-            <div class="w-full lg:w-4/5 flex flex-col gap-5">
-                <!------------ ABOUT ------------>   
-                <div class="flex flex-col justify-center gap-3">
-                    <!------ TITLE ------>
-                    <h2 class="capitalize font-bold text-3xl py-2">About us</h2>
-                    <!------ PARAGRAPH 1------>
-                    <p class="text-base text-gray-700">
-                        We are an Islamic Based Institute for Muslim students.
-                        We impart knowledge into our pupils and children in line with the acceptable global educational standard.
-                    </p>
-                    
-                </div>
-                <!------------ VISION ------------>
-                <div class="flex flex-col justify-center gap-3">
-                    <h2 class="capitalize font-bold text-3xl py-2">Our Mission</h2>
-                    <!------ PARAGRAPH ------>
-                    <p class="lg:w-5/6  text-base capitalize text-gray-700">
-                        To be the Leading Islamic Educational Institute in Nigeria and Africa, 
-                        delivering quality education to better the society.
-                    </p>
-                </div>
-                <!------------ MISSION ------------>
-                <div class="flex flex-col justify-center gap-3">
-                    <h2 class="capitalize font-bold text-3xl py-2">Our Vision</h2>
-                    <!------ PARAGRAPH ------>
-                    <p class="lg:w-5/6 text-base capitalize text-gray-700">
-                    We are driven by our passion to impart quality education in our students. 
-                    To build and guide them in the Islamic path to achieve their individual dreams.
-    
-                    </p>
-                </div>
-                <div class="self-start">
-                    <a href="<?php wp_upload_dir();?>/about-us" class="inline-flex border border-green-dark hover:border-green-dark items-center text-center px-6 py-2  hover:bg-green-dark text-green-dark hover:text-white font-medium rounded-full">view more</a>
-    
-                </div>
-            </div>
-        </div>
-        <!------------ COLUMN 2 ------------>
-        <div class="about-image flex items-start justify-center md:h-full">
-            <!--------- IMAGE --------->
-            <div class="rounded-md bg-green-dark h-4/5 xs:h-full w-3/5 flex justify-center items-center ">
-                <img src="<?php wp_upload_dir(); ?>/wp-content/themes/ar-rahman-school/images/logo_ARAHMAN_2.png" class="w-4/5 h-auto" alt="">
-            </div>
-        </div>
+<section class="text-white bg-gray-900">
+  <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <a
+        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+        href="/services/digital-campaigns"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-10 h-10 text-pink-500"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M12 14l9-5-9-5-9 5 9 5z" />
+          <path
+            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+          />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+          />
+        </svg>
+
+        <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+
+        <p class="mt-1 text-sm text-gray-300">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+        </p>
+      </a>
+
+      <a
+        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+        href="/services/digital-campaigns"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-10 h-10 text-pink-500"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M12 14l9-5-9-5-9 5 9 5z" />
+          <path
+            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+          />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+          />
+        </svg>
+
+        <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+
+        <p class="mt-1 text-sm text-gray-300">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+        </p>
+      </a>
+
+      <a
+        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+        href="/services/digital-campaigns"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-10 h-10 text-pink-500"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path d="M12 14l9-5-9-5-9 5 9 5z" />
+          <path
+            d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+          />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+          />
+        </svg>
+
+        <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+
+        <p class="mt-1 text-sm text-gray-300">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+          possimus adipisci distinctio alias voluptatum blanditiis laudantium.
+        </p>
+      </a>
+
+     
+      
     </div>
+   
+  </div>
 </section>
+
 <!-------------------------------- 
-/// 03   FACILITIES SECTION
+/// 03   ABOUT SECTION
 ---------------------------------->
-<section class="py-20 px-4">
-    <div class="max-w-6xl mx-auto flex flex-col gap-14">
-        <!------ HEADING ------>
-        <div class="flex justify-center items-center">
-            <h2 class="flex flex-col text-3xl md:text-4xl capitalize font-bold">
-                our school facilities
-            </h2>
-        </div>
-        <!------ FACILITIES ------>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div class="w-full h-80 facility-library rounded-lg flex justify-center items-center">
-                <h4 class="text-3xl font-medium text-white capitalize">library</h4>
-            </div>
-            <div class="w-full h-80 facility-laboratory rounded-lg flex justify-center items-center">
-                <h4 class="text-3xl font-medium text-white capitalize">laboratory</h4>
-            </div>
-            <div class="w-full h-80 facility-school bus rounded-lg flex justify-center items-center">
-                <h4 class="text-3xl font-medium text-white capitalize">school bus</h4>
-            </div>
-            <div class="w-full h-80 facility-cafeteria rounded-lg flex justify-center items-center">
-                <h4 class="text-3xl font-medium text-white capitalize">cafeteria</h4>
-            </div>
-            <div class="w-full h-80 facility-play-ground rounded-lg flex justify-center items-center">
-                <h4 class="text-3xl font-medium text-white capitalize">play ground</h4>
-            </div>
-            <div class="w-full h-80 facility-mosque rounded-lg flex justify-center items-center">
-                <h4 class="text-3xl font-medium text-white capitalize">mosque</h4>
-            </div>
-        </div>
+<section>
+  <div class="max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
+      <div
+        class="relative h-64 overflow-hidden rounded-md sm:h-80 lg:h-full"
+      >
+        <img
+          class="absolute inset-0 object-cover w-full h-full"
+          src="https://www.hyperui.dev/photos/man-1.jpeg"
+          alt="Man using a computer"
+        />
+      </div>
+
+      <div class="lg:py-24">
+        <h2 class="text-3xl font-bold sm:text-4xl">Grow your audience</h2>
+
+        <p class="mt-4 text-gray-600">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
+          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
+          veniam tempora deserunt? Molestiae eius quidem quam repellat.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
+          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
+          veniam tempora deserunt? Molestiae eius quidem quam repellat.
+        </p>
+        <p class="mt-4 text-gray-600">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
+          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
+          veniam tempora deserunt? Molestiae eius quidem quam repellat. dolor, sit amet consectetur adipisicing elit. Aut qui hic
+          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
+          veniam tempora deserunt? Molestiae eius quidem quam repellat.
+        </p>
+
+        <a
+          class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
+          href="/get-started"
+        >
+          <span class="text-sm font-medium"> Get Started </span>
+
+          <svg
+            class="w-5 h-5 ml-3"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            />
+          </svg>
+        </a>
+      </div>
     </div>
+  </div>
 </section>
 
 <!-------------------------------- 
@@ -179,7 +265,12 @@ get_header();
         </div>
         <!-------------- BUTTON -------------->
         <div class="btn flex justify-center">
-            <a href="<?php wp_upload_dir();?>/news" class="inline-flex border border-green-dark hover:border-green-dark items-center px-6 py-2  hover:bg-green-dark text-green-dark hover:text-white font-medium rounded-full">view more</a>
+            <a class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
+            href="/get-started" >
+                <span class="text-sm font-medium"> Get Started </span>
+
+        
+            </a>
         </div>
     </div>
 </section>
@@ -188,115 +279,81 @@ get_header();
 /// 05   TOUR AND EVENTS SECTION
 ---------------------------------->
 <section class="py-20 px-4">
-    <div class="max-w-6xl mx-auto">
-        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-7 gap-14">
+    <div class="max-w-screen-xl mx-auto">
             <!---------------------------------  
                 SCHELDUE TOUR SECTION
             --------------------------------->
-            <div class="md:col-span-3 flex flex-col h-96 justify-center gap-12 px-8 py-8 rounded-lg bg-green-light">
-                    <!-------------- HEADING -------------->
-                <div class="heading text-left">
-                    <h2 class="text-4xl font-bold capitalize">schedule tour</h2>
-                </div>
-                <!-------------- INFO -------------->
-                <div class="flex flex-col gap-4">
-                    <!-------------- LOCATION -------------->
-                    <div class="flex gap-3 items-center">
-                        <div class="">
-                            <span class="flex justify-center items-center h-10 w-10 bg-green-dark rounded-full">
-                                <i class="fas fa-map-marker-alt text-white"></i>
-                            </span>
-                        </div>
-                        <div class="">
-                                <p class="text-base">4 CMD Road, Shangisha, Magodo</p>
-                        </div>
-                    </div>
-                    <!-------------- TIME -------------->
-                    <div class="flex gap-3 items-center">
-                        <div class="">
-                            <span class="flex justify-center items-center h-10 w-10 bg-green-dark rounded-full">
-                                <i class="fas fa-clock text-white"></i>
-                            </span>
-                        </div>
-                        <div class="">
-                            <p class="text-base">08:00AM - 03:00PM (Mondays - Fridays)</p>
-                        </div>
-                    </div>
-                </div>
-                <!-------------- BUTTON -------------->
-                <div class="btn flex justify-end">
-                    <a href="<?php wp_upload_dir();?>/schedule-a-tour" class="inline-flex border border-blue hover:border-yellow  bg-yellow  hover:bg-green-light text-white hover:text-yellow font-medium items-center px-6 py-2 rounded-full">schedule tour</a>
-                </div>
-            </div>
-    
-            <!---------------------------------  
-                UP COMING EVENTS SECTION 
-            --------------------------------->
-            <div class="md:col-span-4 flex justify-center">
-                <div class="w-full lg:w-4/5">
-                    <div class="flex flex-col gap-12">
-                        <!-------------- HEADING -------------->
-                        <div class="heading text-left">
-                            <h2 class="text-4xl font-bold capitalize">upcoming Events</h2>
-                        </div>
-                        <!-------------- EVENTS -------------->
-                        <?php $query_args = array(
-                            'post_type' => 'events',
-                            'posts_per_page' => 2,
-                            'order' => 'ASC',
-                            );
-                            
-                            $query = new WP_Query( $query_args ); ?>
-                            <!--  -->
-                            <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-                                <div class="flex flex-col gap-2">
-                                    <!-------------- HEADING ------------->
-                                    <div class="flex flex-col gap-2">
-                                        <a href="<?php the_permalink();?>" class="text-3xl font-semibold capitalize"><?php the_title();?></a>
+            <div class="flex flex-col items-center justify-center gap-12 px-8 py-8 rounded-lg bg-green-light">
+                  <!-------------- HEADING -------------->
+              <div class="heading text-left">
+                  <h2 class="text-4xl font-bold capitalize">schedule tour</h2>
+              </div>
+              <!-------------- INFO -------------->
+              <div class="flex justify-center">
+                <?php $query_args = array(
+                'post_type' => 'events',
+                'posts_per_page' => 1,
+                'order' => 'DESC',
+                );
+                $query = new WP_Query( $query_args ); ?>
+                <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+                  <div class="bg-blue rounded-md flex items-center justify-center px-24 py-10 gap-12">
+                          <div class="bg-white date w-36 h-36 rounded-full flex flex-col justify-center items-center">
+                          <?php
+                          $date_string = get_field('date');
+                          $date = DateTime::createFromFormat('Ymd', $date_string);
+                          ?>
+                              <h4 class="text-blue text-6xl font-bold"><?php the_field('date'); ?></h4>
+                              <p class="text-blue text-2xl font-bold capitalize">jan</p>
 
-                                        <h5 class="capitalize text-base font-medium"><?php the_field('date'); ?></h5>
-                                    </div>
-                                    <!-------------- TIME ------------->
-                                    <?php
-                                    $time = get_field('time');
-                                    if( $time ): ?>
-                                        <div class="flex gap-3 items-center">
-                                            <div class="">
-                                                <span class="flex justify-center items-center h-5 w-5 bg-yellow rounded-full">
-                                                    <i class="fas fa-clock text-white text-xs"></i>
-                                                </span>
-                                            </div>
-                                            <div class="">
-                                                <h5 class="capitalize text-sm"><?php echo esc_attr($time['from']); ?> - <?php echo esc_attr($time['till']); ?></h5>
-                                            </div>
-                                        </div>
-                                    <?php endif; ?>
-                                    <!-------------- LOCATION -------------->
-                                    <div class="flex gap-3 items-center">
-                                        <div class="">
-                                            <span class="flex justify-center items-center h-5 w-5 bg-yellow rounded-full">
-                                                <i class="fas fa-map-marker-alt text-white text-xs"></i>
-                                            </span>
-                                        </div>
-                                        <div class="">
-                                            <h5 class="capitalize text-sm"><?php the_field('venue'); ?></h5>
-                                        </div>
-                                    </div>
-                                </div>   
-                             <?php endwhile; else: endif; ?>
+                          </div>
+                          <div class="text-white ">
+                              <div class="heading text-left mb-5">
+                                  <h4 class="text-2xl font-bold uppercase"><?php the_title(); ?></h4>
+                              </div>
+                                <!-------------- LOCATION -------------->
+                              <div class="flex gap-3 items-center">
+                                  <div class="">
+                                      <span class="flex justify-center items-center h-10 w-10 bg-green-dark rounded-full">
+                                          <i class="fas fa-map-marker-alt text-white"></i>
+                                      </span>
+                                  </div>
+                                  <div class="">
+                                          <p class="text-base"><?php the_field('location'); ?></p>
+                                  </div>
+                              </div>
+                              <!-------------- TIME -------------->
+                              <?php
+                              $time = get_field('time');
+                              if( $time ): ?>
+                              <div class="flex gap-3 items-center">
+                                  <div class="">
+                                      <span class="flex justify-center items-center h-10 w-10 bg-green-dark rounded-full">
+                                          <i class="fas fa-clock text-white"></i>
+                                      </span>
+                                  </div>
+                                  <div class="">
+                                      <p class="text-base"><?php echo esc_attr($time['from']); ?> - <?php echo esc_attr($time['till']) ?></p>
+                                  </div>
+                              </div>
+                              <?php endif ?>
+                                <!-------------- BUTTON -------------->
+                              <div class="btn flex">
+                                  <a class="inline-flex items-center px-8 py-3 mt-5 text-white bg-transparent border border-white rounded hover:bg-white hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
+                                  href="/<?php the_field('join'); ?>" >
+                                      <span class="text-sm font-medium"> Get Started </span>
 
-                        <!-------------- BUTTON -------------->
-                        <div class="btn flex justify-start">
-                            <a href="<?php wp_upload_dir();?>/events" class="inline-flex border border-green-dark hover:border-green-dark items-center px-6 py-2  hover:bg-green-dark text-green-dark hover:text-white font-medium rounded-full">more events</a>
-                        </div>
-
-                    </div>
-                </div>
-                
+                          
+                                  </a>
+                              </div>
+                          </div>
+                  </div>
+                <?php endwhile; else: endif; ?>
+              </div>
+               
             </div>
                         
 
-        </div>
     </div>
 </section>
 
