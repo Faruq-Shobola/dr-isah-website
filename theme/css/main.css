@@ -30,3 +30,15 @@
 .menu ul.main-menu > li.current_page_item  a {
 	color: blue;
 }
+
+/****************
+*** SWIPER JS
+*****************/
+div.swiper-pagination {
+    bottom: 0;
+    position: relative;
+}
+
+.swiper-container {
+    overflow: hidden;
+}
