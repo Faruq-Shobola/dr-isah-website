@@ -20,7 +20,7 @@ get_header();
     alt="Couple on a bed with a dog"
   />
 
-  <div class="relative max-w-screen-xl px-4 py-32 mx-auto lg:items-center lg:flex">
+  <div class="cont relative py-32  lg:flex">
     <div class="max-w-xl text-center sm:text-left">
       <h1 class="text-3xl font-extrabold sm:text-5xl">
         Let us find your
@@ -50,7 +50,7 @@ get_header();
 /// 02    SECTION
 ---------------------------------->
 <section class="text-white bg-gray-900">
-  <div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+  <div class="cont py-8 mx-auto">
 
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       <a
@@ -156,12 +156,10 @@ get_header();
 <!-------------------------------- 
 /// 03   ABOUT SECTION
 ---------------------------------->
-<section>
-  <div class="max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
+<section class="">
+  <div class="cont py-24">
     <div class="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
-      <div
-        class="relative h-64 overflow-hidden rounded-md sm:h-80 lg:h-full"
-      >
+      <div class="relative h-64 overflow-hidden rounded-md sm:h-80 lg:h-full">
         <img
           class="absolute inset-0 object-cover w-full h-full"
           src="https://www.hyperui.dev/photos/man-1.jpeg"
@@ -169,8 +167,9 @@ get_header();
         />
       </div>
 
-      <div class="lg:py-24">
+      <div class="lg:py-24 w-4/5">
         <h2 class="text-3xl font-bold sm:text-4xl">Grow your audience</h2>
+        <h5 class="text-blue font-medium text-lg uppercase mt-2">medical doctor</h5>
 
         <p class="mt-4 text-gray-600">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
@@ -217,8 +216,8 @@ get_header();
 <!-------------------------------- 
 /// 04   NEWS SECTION
 ---------------------------------->
-<section class="py-20 px-4">
-    <div class="max-w-6xl mx-auto flex flex-col gap-14">
+<section class="">
+    <div class="cont flex flex-col gap-14 py-20">
         <!------ HEADING ------>
         <div class="flex justify-center items-center">
             <h2 class="flex flex-col text-3xl md:text-4xl capitalize font-bold">
@@ -278,8 +277,8 @@ get_header();
 <!-------------------------------- 
 /// 05   TOUR AND EVENTS SECTION
 ---------------------------------->
-<section class="py-20 px-4">
-    <div class="max-w-screen-xl mx-auto">
+<section class="">
+    <div class="cont py-20">
             <!---------------------------------  
                 SCHELDUE TOUR SECTION
             --------------------------------->
