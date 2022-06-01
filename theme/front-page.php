@@ -16,7 +16,7 @@ get_header();
 <section class="relative bg-white">
   <img
     class="absolute inset-0 object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
-    src="https://images.unsplash.com/photo-1601758003122-53c40e686a19"
+    src="https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     alt="Couple on a bed with a dog"
   />
 
@@ -24,7 +24,7 @@ get_header();
     <div class="max-w-xl text-center sm:text-left">
       <h1 class="text-3xl font-extrabold sm:text-5xl">
         Let us find your
-        <strong class="font-extrabold text-rose-700 sm:block">
+        <strong class="font-extrabold text-blue sm:block">
           Forever Home.
         </strong>
       </h1>
@@ -34,11 +34,11 @@ get_header();
       </p>
 
       <div class="flex flex-wrap gap-4 mt-8 text-center">
-        <a class="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-rose-600 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring" href="/get-started">
+        <a class="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-blue sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring" href="/get-started">
           Get Started
         </a>
 
-        <a class="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-rose-600 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring" href="/about">
+        <a class="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-blue sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring" href="/about">
           Learn More
         </a>
       </div>
@@ -49,17 +49,17 @@ get_header();
 <!-------------------------------- 
 /// 02    SECTION
 ---------------------------------->
-<section class="text-white bg-gray-900">
-  <div class="cont py-8 mx-auto">
+<section class="pt-24">
+  <div class="cont mx-auto">
 
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       <a
-        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+        class="block p-8 transition border border-blue shadow-lg rounded-lg "
         href="/services/digital-campaigns"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="w-10 h-10 text-pink-500"
+          class="w-10 h-10 text-blue"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -76,21 +76,21 @@ get_header();
           />
         </svg>
 
-        <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+        <h3 class="mt-4 text-xl font-bold">Digital campaigns</h3>
 
-        <p class="mt-1 text-sm text-gray-300">
+        <p class="mt-1 text-sm text-gray-600">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
           possimus adipisci distinctio alias voluptatum blanditiis laudantium.
         </p>
       </a>
 
       <a
-        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+        class="block p-8 transition border border-blue shadow-lg rounded-lg "
         href="/services/digital-campaigns"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="w-10 h-10 text-pink-500"
+          class="w-10 h-10 text-blue"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -107,21 +107,21 @@ get_header();
           />
         </svg>
 
-        <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+        <h3 class="mt-4 text-xl font-bold">Digital campaigns</h3>
 
-        <p class="mt-1 text-sm text-gray-300">
+        <p class="mt-1 text-sm text-gray-600">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
           possimus adipisci distinctio alias voluptatum blanditiis laudantium.
         </p>
       </a>
 
       <a
-        class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+        class="block p-8 transition border border-blue shadow-lg rounded-lg "
         href="/services/digital-campaigns"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="w-10 h-10 text-pink-500"
+          class="w-10 h-10 text-blue"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -138,9 +138,9 @@ get_header();
           />
         </svg>
 
-        <h3 class="mt-4 text-xl font-bold text-white">Digital campaigns</h3>
+        <h3 class="mt-4 text-xl font-bold">Digital campaigns</h3>
 
-        <p class="mt-1 text-sm text-gray-300">
+        <p class="mt-1 text-sm text-gray-600">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
           possimus adipisci distinctio alias voluptatum blanditiis laudantium.
         </p>
@@ -168,7 +168,7 @@ get_header();
       </div>
 
       <div class="lg:py-24 w-4/5">
-        <h2 class="text-3xl font-bold sm:text-4xl">Grow your audience</h2>
+        <h2 class="text-3xl font-bold sm:text-4xl">Dr. ISAH TOSIN</h2>
         <h5 class="text-blue font-medium text-lg uppercase mt-2">medical doctor</h5>
 
         <p class="mt-4 text-gray-600">
@@ -214,14 +214,22 @@ get_header();
 </section>
 
 <!-------------------------------- 
-/// 04   NEWS SECTION
+/// 04  TESTIMONIALS
+---------------------------------->
+<section class="bg-gray">
+  <?php get_template_part( 'template-parts/content/content', 'testimonial' ); ?>
+</section>
+
+
+<!-------------------------------- 
+/// 05   NEWS SECTION
 ---------------------------------->
 <section class="">
-    <div class="cont flex flex-col gap-14 py-20">
+    <div class="cont flex flex-col gap-10 py-20">
         <!------ HEADING ------>
         <div class="flex justify-center items-center">
             <h2 class="flex flex-col text-3xl md:text-4xl capitalize font-bold">
-                school news update
+                Health Blog
             </h2>
         </div>
         <!-------------- BLOGS -------------->
@@ -232,129 +240,31 @@ get_header();
         );
         
         $query = new WP_Query( $query_args ); ?>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-            <!-------------- BLOG 1 -------------->
-            <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-                <div class="w-full bg-white">
-                    <div class=" rounded-lg overflow-hidden">
-                        <?php if(has_post_thumbnail()):?>
-                            <img
-                                class="object-cover w-full h-72"
-                                src="<?php the_post_thumbnail_url();?>"
-                                alt="<?php the_title();?>"
-                                />
-                            <?php endif;?>
-                            
-                    </div>
+          <div class="mx-auto  md:max-w-full lg:max-w-screen-xl lg:px-8">
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              <!-------------- BLOG 1 -------------->
+              <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+                  
+                  <?php get_template_part( 'template-parts/content/content', 'blog' ); ?>
 
-                    <div class="px-2 py-7 flex flex-col">
-                        <h5 class="text-base font-medium text-gray-500"><?php echo get_the_date( 'jS F, Y' );?></h5>
-                        <h3 class="mt-4 text-xl font-medium">
-                            <?php the_title();?>
-                        </h3>
-                    
-                        <p class="mt-4 text-base text-gray"> <?php the_excerpt();?> </p>
-                        <p class="mt-6 flex items-center justify-between">
-                            <a href="<?php the_permalink();?>" class="text-wine text-sm font-semibold cursor-pointer">Continue reading</a>
-                        </p>
-                    </div>
-                </div>   
-            <?php endwhile; else: endif; ?>
-
-        </div>
+              <?php endwhile; else: endif; ?>
+            </div>
+          </div>
         <!-------------- BUTTON -------------->
         <div class="btn flex justify-center">
-            <a class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
+            <a class="inline-flex items-center px-8 py-3 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
             href="/get-started" >
                 <span class="text-sm font-medium"> Get Started </span>
-
-        
             </a>
         </div>
     </div>
 </section>
 
 <!-------------------------------- 
-/// 05   TOUR AND EVENTS SECTION
+/// 06  CALL-TO-ACTION
 ---------------------------------->
-<section class="">
-    <div class="cont py-20">
-            <!---------------------------------  
-                SCHELDUE TOUR SECTION
-            --------------------------------->
-            <div class="flex flex-col items-center justify-center gap-12 px-8 py-8 rounded-lg bg-green-light">
-                  <!-------------- HEADING -------------->
-              <div class="heading text-left">
-                  <h2 class="text-4xl font-bold capitalize">schedule tour</h2>
-              </div>
-              <!-------------- INFO -------------->
-              <div class="flex justify-center">
-                <?php $query_args = array(
-                'post_type' => 'events',
-                'posts_per_page' => 1,
-                'order' => 'DESC',
-                );
-                $query = new WP_Query( $query_args ); ?>
-                <?php if( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
-                  <div class="bg-blue rounded-md flex items-center justify-center px-24 py-10 gap-12">
-                          <div class="bg-white date w-36 h-36 rounded-full flex flex-col justify-center items-center">
-                          <?php
-                          $date_string = get_field('date');
-                          $date = DateTime::createFromFormat('Ymd', $date_string);
-                          ?>
-                              <h4 class="text-blue text-6xl font-bold"><?php the_field('date'); ?></h4>
-                              <p class="text-blue text-2xl font-bold capitalize">jan</p>
 
-                          </div>
-                          <div class="text-white ">
-                              <div class="heading text-left mb-5">
-                                  <h4 class="text-2xl font-bold uppercase"><?php the_title(); ?></h4>
-                              </div>
-                                <!-------------- LOCATION -------------->
-                              <div class="flex gap-3 items-center">
-                                  <div class="">
-                                      <span class="flex justify-center items-center h-10 w-10 bg-green-dark rounded-full">
-                                          <i class="fas fa-map-marker-alt text-white"></i>
-                                      </span>
-                                  </div>
-                                  <div class="">
-                                          <p class="text-base"><?php the_field('location'); ?></p>
-                                  </div>
-                              </div>
-                              <!-------------- TIME -------------->
-                              <?php
-                              $time = get_field('time');
-                              if( $time ): ?>
-                              <div class="flex gap-3 items-center">
-                                  <div class="">
-                                      <span class="flex justify-center items-center h-10 w-10 bg-green-dark rounded-full">
-                                          <i class="fas fa-clock text-white"></i>
-                                      </span>
-                                  </div>
-                                  <div class="">
-                                      <p class="text-base"><?php echo esc_attr($time['from']); ?> - <?php echo esc_attr($time['till']) ?></p>
-                                  </div>
-                              </div>
-                              <?php endif ?>
-                                <!-------------- BUTTON -------------->
-                              <div class="btn flex">
-                                  <a class="inline-flex items-center px-8 py-3 mt-5 text-white bg-transparent border border-white rounded hover:bg-white hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
-                                  href="/<?php the_field('join'); ?>" >
-                                      <span class="text-sm font-medium"> Get Started </span>
-
-                          
-                                  </a>
-                              </div>
-                          </div>
-                  </div>
-                <?php endwhile; else: endif; ?>
-              </div>
-               
-            </div>
-                        
-
-    </div>
-</section>
+<?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
 
 <!-------------------------------- 
 /// 05  CTA SECTION

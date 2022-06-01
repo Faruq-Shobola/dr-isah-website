@@ -145,6 +145,24 @@ function dr_isah_widgets_init() {
 }
 add_action( 'widgets_init', 'dr_isah_widgets_init' );
 
+
+/**
+ * Change excerpt length
+ */
+if (!function_exists('theme_excerpt_length' && 'theme_excerpt_more')) {
+    function theme_excerpt_length($length) {
+        return 20; // change the number here according to your requirement
+	}
+	function theme_excerpt_more($more) {
+        return '...'; // change the number here according to your requirement
+    }
+}
+add_filter('excerpt_length', 'theme_excerpt_length');
+add_filter('excerpt_more', 'theme_excerpt_more');
+// ********* //
+
+
+
 /**
  * Enqueue scripts and styles.
  */
