@@ -68,7 +68,6 @@ get_header();
 </section>
 
 
-
 <section class="">
     <div class="cont grid gap-8 lg:grid-cols-2 py-16 ">
         <div class="flex items-center justify-center">

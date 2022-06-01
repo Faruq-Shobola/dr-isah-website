@@ -356,5 +356,11 @@ get_header();
     </div>
 </section>
 
+<!-------------------------------- 
+/// 05  CTA SECTION
+---------------------------------->
+<?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
+
+
 <?php
 get_footer();
