@@ -34,12 +34,10 @@ get_header();
       </p>
 
       <div class="flex flex-wrap gap-4 mt-8 text-center">
-        <a class="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-blue sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring" href="/get-started">
-          Get Started
-        </a>
-
-        <a class="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-blue sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring" href="/about">
-          Learn More
+        <a
+          class="inline-flex items-center text-md font-semibold px-8 py-3 text-white bg-blue border-2 border-blue rounded hover:bg-transparent hover:text-blue active:text-blue focus:outline-hidden focus:ring"
+          href="/get-started"
+        > Get Started
         </a>
       </div>
     </div>
@@ -188,25 +186,10 @@ get_header();
         </p>
 
         <a
-          class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
+          class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-hidden focus:ring"
           href="/get-started"
         >
           <span class="text-sm font-medium"> Get Started </span>
-
-          <svg
-            class="w-5 h-5 ml-3"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M17 8l4 4m0 0l-4 4m4-4H3"
-            />
-          </svg>
         </a>
       </div>
     </div>
@@ -252,7 +235,7 @@ get_header();
           </div>
         <!-------------- BUTTON -------------->
         <div class="btn flex justify-center">
-            <a class="inline-flex items-center px-8 py-3 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
+            <a class="inline-flex items-center px-8 py-3 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-hidden focus:ring"
             href="/get-started" >
                 <span class="text-sm font-medium"> Get Started </span>
             </a>

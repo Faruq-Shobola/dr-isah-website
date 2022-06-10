@@ -20,7 +20,7 @@ get_header();
 		/>
 	<?php endif;?>
 
-  <div class="relative py-16 lg:flex bg-blue/50">
+  <div class="relative py-20 lg:flex bg-blue/50">
 	<div class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
 		<p class="mb-2 text-xs font-semibold tracking-wide text-white uppercase sm:text-center">
 			<time><?php echo get_the_date( 'jS F, Y' );?></time>
@@ -31,9 +31,6 @@ get_header();
 				<?php the_title(); ?>
 			</p>
 			</div>
-			<p class="text-base  md:text-lg">
-				<?php the_excerpt(); ?>
-			</p>
 		</div>
 	</div>
   </div>
@@ -94,5 +91,4 @@ get_header();
 </section>
 
 <?php
-get_sidebar();
 get_footer();

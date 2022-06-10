@@ -10,31 +10,45 @@
 get_header();
 ?>
 
+<!------------------------------------- 
+/// 01   HERO SECTION
+--------------------------------------->
+<section class="relative bg-white">
+  <img
+    class="absolute object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
+    src="https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    alt="Couple on a bed with a dog"
+  />
+
+  <div class="cont relative py-32 h-60 md:h-72 lg:h-96">
+    <div class="top-1/3 md:top-1/2 md:left-1/2 left-5">
+      <!-- Name -->
+      <div class="title py-10">
+        <h1 class="text-3xl text-blue font-semibold py-2 uppercase">Contact Me</h1>
+        <p class="text-2xl capitalize">our best services for your kids</p>
+
+        <!-- line -->
+        <div class="h-1 rounded-sm w-24 bg-blue my-3 origin-left"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------------------------- 
+/// 02   CONTACT ADDRESS SECTION
+--------------------------------------->
 <section class="">
     <div class="cont py-8">
-        <div class="flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
-            <h2 class="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
-            <span class="inline-block mb-1 sm:mb-4">
-                There is no must in art<br class="hidden md:block" />
-                because art is free.
-            </span>
-            <div class="h-1 ml-auto duration-300 origin-left transform bg-blue scale-x-30 group-hover:scale-x-100"></div>
-            </h2>
-            <p class="text-gray-700 lg:text-sm lg:max-w-md">
-            "Class is dead", says Foucault; however, according to Reicher, it is not so much class that is dead, but rather the absurdity, and some would say the paradigm, of class. However, the subject is interpolated into a postpatriarchialist
-            dialectic theory that includes consciousness as a totality.
-            </p>
-        </div>
-        <div class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+        <div class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 ">
             <div class="grid max-w-screen-lg gap-8 row-gap-6 sm:mx-auto lg:grid-cols-2">
-                <a href="/" aria-label="View item" title="View item" class="relative block p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+                <a href="tel:+234 800 000 0000" aria-label="View item" title="View item" class="relative block p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
                     <div class="relative flex items-center justify-between p-5 bg-white rounded-sm">
                         <div class="pr-4">
                         <h6 class="mb-2 font-semibold leading-5">
-                            The quick, brown fox jumps over a very lazy dog
+                            Phone Number
                         </h6>
                         <p class="text-sm text-gray-900">
-                            Storage shed, troughs feed bale manure, is garden wheat oats at augers.
+                            0800 000 0000
                         </p>
                         </div>
                         <div class="flex items-center justify-center">
@@ -48,10 +62,10 @@ get_header();
                     <div class="relative flex items-center justify-between p-5 bg-white rounded-sm">
                         <div class="pr-4">
                         <h6 class="mb-2 font-semibold leading-5">
-                            The first mate and his Skipper too will do
+                            Email Address
                         </h6>
                         <p class="text-sm text-gray-900">
-                            Disrupt inspire and think tank, social entrepreneur but preliminary thinking think tank.
+                            drisah@gmail.com
                         </p>
                         </div>
                         <div class="flex items-center justify-center">
@@ -67,13 +81,14 @@ get_header();
 
 </section>
 
-
-
+<!------------------------------------- 
+/// 03   CONTACT FORM SECTION
+--------------------------------------->
 <section class="">
-    <div class="cont grid gap-8 lg:grid-cols-2 py-16 ">
+    <div class="cont grid gap-8 lg:grid-cols-2 py-16 pt-8">
         <div class="flex items-center justify-center">
             <div class="max-w-xl mx-auto">
-                <div class="flex flex-col items-center justify-center p-8">
+                <div class="flex flex-col items-center justify-center p-4 md:p-8">
                     <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-center">
                         The quick, brown fox<br class="hidden md:block" />
                         jumps over a lazy dog
@@ -140,52 +155,7 @@ get_header();
                     <h3 class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
                         Sign up for updates
                     </h3>
-                    <form>
-                        <div class="mb-1 sm:mb-2">
-                        <label for="firstName" class="inline-block mb-1 font-medium">First name</label>
-                        <input
-                            placeholder="John"
-                            required=""
-                            type="text"
-                            class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                            id="firstName"
-                            name="firstName"
-                        />
-                        </div>
-                        <div class="mb-1 sm:mb-2">
-                        <label for="lastName" class="inline-block mb-1 font-medium">Last name</label>
-                        <input
-                            placeholder="Doe"
-                            required=""
-                            type="text"
-                            class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                            id="lastName"
-                            name="lastName"
-                        />
-                        </div>
-                        <div class="mb-1 sm:mb-2">
-                        <label for="email" class="inline-block mb-1 font-medium">E-mail</label>
-                        <input
-                            placeholder="john.doe@example.org"
-                            required=""
-                            type="text"
-                            class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                            id="email"
-                            name="email"
-                        />
-                        </div>
-                        <div class="mt-4 mb-2 sm:mb-4">
-                        <button
-                            type="submit"
-                            class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                        >
-                            Subscribe
-                        </button>
-                        </div>
-                        <p class="text-xs text-gray-600 sm:text-sm">
-                        We respect your privacy. Unsubscribe at any time.
-                        </p>
-                    </form>
+                    <?php the_content(); ?>
                 </div>
             </div>
         </div>

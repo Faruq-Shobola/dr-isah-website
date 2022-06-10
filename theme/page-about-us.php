@@ -13,13 +13,33 @@ get_header();
 <!------------------------------------- 
 /// 01   HERO SECTION
 --------------------------------------->
+<section class="relative bg-white">
+  <img
+    class="absolute object-[75%] sm:object-[25%] object-cover w-full h-full opacity-25 sm:opacity-100"
+    src="https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    alt="Couple on a bed with a dog"
+  />
+
+  <div class="cont relative py-32 h-60 md:h-72 lg:h-96">
+    <div class="top-1/3 md:top-1/2 md:left-1/2 left-5">
+      <!-- Name -->
+      <div class="title py-10">
+        <h1 class="text-3xl text-blue font-semibold py-2 uppercase">About Me</h1>
+        <p class="text-2xl capitalize">our best services for your kids</p>
+
+        <!-- line -->
+        <div class="h-1 rounded-sm w-24 bg-blue my-3 origin-left"></div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!------------------------------------- 
-/// 02   HERO SECTION
+/// 02   ABOUT SECTION
 --------------------------------------->
 <section class="">
-  <div class="cont py-24">
+  <div class="cont py-20">
     <div class="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
       <div class="relative h-64 overflow-hidden rounded-md sm:h-80 lg:h-full">
         <img
@@ -29,7 +49,7 @@ get_header();
         />
       </div>
 
-      <div class="lg:py-24 w-4/5">
+      <div class="lg:py-20 w-4/5">
         <h2 class="text-3xl font-bold sm:text-4xl">Dr. ISAH TOSIN</h2>
         <h5 class="text-blue font-medium text-lg uppercase mt-2">medical doctor</h5>
 

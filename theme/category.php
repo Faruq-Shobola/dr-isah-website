@@ -24,7 +24,7 @@ get_header();
     <div class="top-1/3 md:top-1/2 md:left-1/2 left-5">
       <!-- Name -->
       <div class="title py-10">
-        <h1 class="text-3xl text-blue font-semibold py-2 uppercase">Health Blog</h1>
+        <h1 class="text-3xl text-blue font-semibold py-2 uppercase"><?php echo single_cat_title();?></h1>
         <p class="text-2xl capitalize">our best services for your kids</p>
 
         <!-- line -->
