@@ -53,7 +53,7 @@ get_header();
         <h2 class="text-3xl font-bold sm:text-4xl">Dr. ISAH TOSIN</h2>
         <h5 class="text-blue font-medium text-lg uppercase mt-2">medical doctor</h5>
 
-        <p class="mt-4 text-gray-600">
+        <p class="mt-4 text-sm text-gray-600 leading-6 text-justify">
           who focuses on advocacy, diagnosis of women diseases and illnesses with treatment to creating health consciousness among female population. His passion towards health care and medicine started as early as the youthful days as
           prominent member of rescue team of water accident and drowned persons in his local village around Ibeju/ Lekki local government of Lagos state Nigeria. committee of care giver to sport injury victims 
           regularly  in touch with elders of traditional medicine practitioners who handle victims of snake bites visitation and observation of traditional birth attendance all of the above happened before the choice  of science subjects towards becoming a Dr.
