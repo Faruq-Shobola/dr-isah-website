@@ -44,4 +44,8 @@
     .cont-cta {
         @apply px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20
     }
+
+    .btn-primary {
+        @apply inline-flex items-center text-base font-semibold px-8 py-3 text-white bg-blue border-2 border-blue rounded hover:bg-transparent hover:text-blue active:text-blue focus:outline-hidden focus:ring
+    }
 }
