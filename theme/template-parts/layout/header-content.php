@@ -10,7 +10,7 @@
 ?>
 
 <header class="header topbar w-full top-0 z-50">
-		<section class="menu flex flex-col lg:flex-row lg:justify-between justify-center items-between max-w-7xl gap-2 md:gap-6 mx-auto p-2">
+		<section class="cont menu flex flex-col lg:flex-row lg:justify-between justify-center items-between max-w-7xl gap-2 md:gap-6 mx-auto p-2">
 			<div class="flex justify-between items-center h-20">
 				<div class="h-auto w-24">
 					<a href="<?php $uploads = wp_upload_dir();?>">
