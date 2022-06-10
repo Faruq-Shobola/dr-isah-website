@@ -249,11 +249,6 @@ get_header();
 
 <?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
 
-<!-------------------------------- 
-/// 05  CTA SECTION
----------------------------------->
-<?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
-
 
 <?php
 get_footer();
