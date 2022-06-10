@@ -20,7 +20,7 @@ get_header();
     alt="Couple on a bed with a dog"
   />
 
-  <div class="cont relative py-32 h-60 md:h-72 lg:h-96">
+  <div class="cont relative flex items-center py-16 h-60 md:h-72 lg:h-96">
     <div class="top-1/3 md:top-1/2 md:left-1/2 left-5">
       <!-- Name -->
       <div class="title py-10">

@@ -21,7 +21,7 @@ get_header();
   />
 
   <div class="cont relative py-32  lg:flex">
-    <div class="max-w-xl text-center sm:text-left">
+    <div class="max-w-xl text-left">
       <h1 class="text-3xl font-extrabold sm:text-5xl">
         Let us find your
         <strong class="font-extrabold text-blue sm:block">
@@ -143,9 +143,6 @@ get_header();
           possimus adipisci distinctio alias voluptatum blanditiis laudantium.
         </p>
       </a>
-
-     
-      
     </div>
    
   </div>
@@ -165,7 +162,7 @@ get_header();
         />
       </div>
 
-      <div class="lg:py-24 w-4/5">
+      <div class="lg:py-24 md:w-4/5">
         <h2 class="text-3xl font-bold sm:text-4xl">Dr. ISAH TOSIN</h2>
         <h5 class="text-blue font-medium text-lg uppercase mt-2">medical doctor</h5>
 

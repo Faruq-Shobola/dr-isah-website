@@ -20,7 +20,7 @@ get_header();
     alt="Couple on a bed with a dog"
   />
 
-  <div class="cont relative py-32 h-60 md:h-72 lg:h-96">
+  <div class="cont relative flex items-center py-16 h-60 md:h-72 lg:h-96">
     <div class="top-1/3 md:top-1/2 md:left-1/2 left-5">
       <!-- Name -->
       <div class="title py-10">
@@ -49,7 +49,7 @@ get_header();
         />
       </div>
 
-      <div class="lg:py-20 w-4/5">
+      <div class="lg:py-20 md:w-4/5">
         <h2 class="text-3xl font-bold sm:text-4xl">Dr. ISAH TOSIN</h2>
         <h5 class="text-blue font-medium text-lg uppercase mt-2">medical doctor</h5>
 
@@ -163,11 +163,14 @@ get_header();
           <div>
             <h6 class="mb-2 font-semibold leading-5">Awards</h6>
             <ol>
-              <li class="text-sm text-gray-900">
-                Most impactful leader
+            <li class="text-sm text-gray-900">
+                NMA , Nigeria medical association .
               </li>
               <li class="text-sm text-gray-900">
-                The community modifier
+                FAAE, Fellow of Afrca entrepreneurs 
+              </li>
+              <li class="text-sm text-gray-900">
+                Online diabetes management expert.
               </li>
             </ol>
           </div>
