@@ -97,10 +97,11 @@ get_header();
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
                     </p>
                     <div class="mb-10 text-center md:mb-16 lg:mb-20">
-                        <a href="submit"
-                        class="inline-flex items-center justify-center h-12 px-6 font-medium text-white hover:text-blue border-2 border-blue transition duration-200 rounded shadow-md bg-blue hover:bg-white focus:shadow-outline focus:outline-none"
+                        <a
+                        class="btn-primary "
+                        href="/get-started"
                         >
-                        Get started
+                            Get Started 
                         </a>
                     </div>
                     <div class="flex flex-col items-center">

@@ -33,9 +33,9 @@ get_header();
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
       </p>
 
-      <div class="flex flex-wrap gap-4 mt-8 text-center">
+      <div class="flex flex-wrap mt-8 text-center">
         <a
-          class="inline-flex items-center text-md font-semibold px-8 py-3 text-white bg-blue border-2 border-blue rounded hover:bg-transparent hover:text-blue active:text-blue focus:outline-hidden focus:ring"
+          class="btn-primary"
           href="/get-started"
         > Get Started
         </a>
@@ -221,10 +221,12 @@ get_header();
           </div>
         <!-------------- BUTTON -------------->
         <div class="btn flex justify-center">
-            <a class="inline-flex items-center px-8 py-3 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-hidden focus:ring"
-            href="/get-started" >
-                <span class="text-sm font-medium"> Get Started </span>
-            </a>
+          <a
+          class="btn-primary "
+          href="/get-started"
+          >
+             Get Started 
+          </a>
         </div>
     </div>
 </section>
@@ -234,7 +236,6 @@ get_header();
 ---------------------------------->
 
 <?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
-
 
 
 <?php

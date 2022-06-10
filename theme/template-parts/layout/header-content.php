@@ -10,7 +10,7 @@
 ?>
 
 <header class="header topbar w-full top-0 z-50">
-		<section class="cont menu flex flex-col lg:flex-row lg:justify-between justify-center items-between max-w-7xl gap-2 md:gap-6 mx-auto p-2">
+		<section class="cont menu flex flex-col md:flex-row md:justify-between justify-center items-between max-w-7xl gap-2 md:gap-6 mx-auto p-2">
 			<div class="flex justify-between items-center h-20">
 				<div class="h-auto w-24">
 					<a href="<?php $uploads = wp_upload_dir();?>">
@@ -34,7 +34,7 @@
 			array(
 			'theme_location' => 'menu-1',
 			'menu'              => "primary", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
-			'menu_class'        => "main-menu hidden md:flex lg:flex-row py-5 lg:py-0 lg:items-center gap-4 lg:gap-0 md:max-w-lg lg:max-w-full", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
+			'menu_class'        => "main-menu hidden md:flex md:flex-row py-5 lg:py-0 lg:items-center gap-4 lg:gap-0 md:max-w-lg lg:max-w-full", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
 			'container'         => "nav", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
 			'container_class'   => "flex flex-col justify-center lg:flex lg:flex-row lg:justify-end lg:items-center bg-green-light",
 			'depth'             => "0", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.

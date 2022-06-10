@@ -14,7 +14,7 @@
         </p>
         <div class="flex items-center">
           <a href="submit"
-            class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium text-white hover:text-blue border-2 border-blue transition duration-200 rounded shadow-md bg-blue hover:bg-white focus:shadow-outline focus:outline-none"
+          class="btn-primary"
           >
             Get started
           </a>
