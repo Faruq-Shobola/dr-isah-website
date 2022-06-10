@@ -29,3 +29,14 @@
       },
     })
   })
+
+
+const icon = document.querySelector(".hamburger");
+const menu = document.querySelector(".main-menu");
+
+
+const toggleNav = () => {
+  menu.classList.toggle('hidden')
+};
+
+icon.addEventListener('click', toggleNav)
