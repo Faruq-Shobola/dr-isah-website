@@ -54,42 +54,10 @@ get_header();
         <h5 class="text-blue font-medium text-lg uppercase mt-2">medical doctor</h5>
 
         <p class="mt-4 text-gray-600">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat.
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat.
+          who focuses on advocacy, diagnosis of women diseases and illnesses with treatment to creating health consciousness among female population. His passion towards health care and medicine started as early as the youthful days as
+          prominent member of rescue team of water accident and drowned persons in his local village around Ibeju/ Lekki local government of Lagos state Nigeria. committee of care giver to sport injury victims 
+          regularly  in touch with elders of traditional medicine practitioners who handle victims of snake bites visitation and observation of traditional birth attendance all of the above happened before the choice  of science subjects towards becoming a Dr.
         </p>
-        <p class="mt-4 text-gray-600">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat. dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat.
-        </p>
-
-        <a
-          class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
-          href="/get-started"
-        >
-          <span class="text-sm font-medium"> Get Started </span>
-
-          <svg
-            class="w-5 h-5 ml-3"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M17 8l4 4m0 0l-4 4m4-4H3"
-            />
-          </svg>
-        </a>
       </div>
     </div>
   </div>
@@ -117,11 +85,37 @@ get_header();
           </div>
           <div>
             <h6 class="mb-2 font-semibold leading-5">
-              They urge you to put down
+              Certifications
             </h6>
-            <p class="text-sm text-gray-900">
-              Skate ipsum dolor sit amet, alley oop vert mute-air Colby Carter flail 180 berm. Half-cab camel back ollie transition ledge Wes Humpston 1080.
-            </p>
+            <ol>
+              <li class="text-sm text-gray-900">
+                B.Sc ( biochemistry) Unimaid.
+              </li>
+              <li class="text-sm text-gray-900">
+                MBBS , LASUCOM.
+              </li>
+              <li class="text-sm text-gray-900">
+                BLS , basic life support.
+              </li>
+              <li class="text-sm text-gray-900">
+                ACLS , Advance cardiovascular Life support.  
+              </li>
+              <li class="text-sm text-gray-900">
+                Advance Professional Diploma in Health, Safety and Environment, CMUL.
+              </li>
+              <li class="text-sm text-gray-900">
+                PGDFM, post graduate Diploma Family Medicine.NPMCN.
+              </li>
+              <li class="text-sm text-gray-900">
+                LIMH , leadership in Health Management. Washington.
+              </li>
+              <li class="text-sm text-gray-900">
+                HEALTH MONITORING AND EVALUATION. Washington .
+              </li>
+              <li class="text-sm text-gray-900">
+                Accredited Mediator.. LMDC/High court.
+              </li>
+            </ol>
             <hr class="w-full my-6 border-gray-300" />
           </div>
         </div>
@@ -134,10 +128,27 @@ get_header();
             </div>
           </div>
           <div>
-            <h6 class="mb-2 font-semibold leading-5">The powerless in a world</h6>
-            <p class="text-sm text-gray-900">
-              The first mate and his Skipper too will do their very best to make the others comfortable in their tropic island nest. Michael Knight a young loner.
-            </p>
+            <h6 class="mb-2 font-semibold leading-5">Projects</h6>
+            <ol>
+              <li class="text-sm text-gray-900">
+                Babies day caring for the under 5 children.
+              </li>
+              <li class="text-sm text-gray-900">
+                Community free health services.
+              </li>
+              <li class="text-sm text-gray-900">
+                Elders health forum
+              </li>
+              <li class="text-sm text-gray-900">
+                OFH free Hepatitis screening / vaccination.
+              </li>
+              <li class="text-sm text-gray-900">
+                Free Eye check / prescription 
+              </li>
+              <li class="text-sm text-gray-900">
+                Women’s health Self breast examination Seminars. Cervical cancers screening / Vaccinations.
+              </li>
+            </ol>
             <hr class="w-full my-6 border-gray-300" />
           </div>
         </div>
@@ -150,26 +161,15 @@ get_header();
             </div>
           </div>
           <div>
-            <h6 class="mb-2 font-semibold leading-5">The powerless in a world</h6>
-            <p class="text-sm text-gray-900">
-              The first mate and his Skipper too will do their very best to make the others comfortable in their tropic island nest. Michael Knight a young loner.
-            </p>
-            <hr class="w-full my-6 border-gray-300" />
-          </div>
-        </div>
-        <div class="flex">
-          <div class="mr-4">
-            <div class="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-blue">
-              <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="#ffffff" viewBox="0 0 52 52">
-                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="#ffffff" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-              </svg>
-            </div>
-          </div>
-          <div>
-            <h6 class="mb-2 font-semibold leading-5">Tell them I hate them</h6>
-            <p class="text-sm text-gray-900">
-              Chase ball of string eat plants, meow, and throw up because I ate plants going to catch the red dot today going to catch the red dot today. I could pee on this if I had the energy.
-            </p>
+            <h6 class="mb-2 font-semibold leading-5">Awards</h6>
+            <ol>
+              <li class="text-sm text-gray-900">
+                Most impactful leader
+              </li>
+              <li class="text-sm text-gray-900">
+                The community modifier
+              </li>
+            </ol>
           </div>
         </div>
         

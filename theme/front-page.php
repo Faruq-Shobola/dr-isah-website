@@ -170,26 +170,15 @@ get_header();
         <h5 class="text-blue font-medium text-lg uppercase mt-2">medical doctor</h5>
 
         <p class="mt-4 text-gray-600">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat.
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat.
+          who focuses on advocacy, diagnosis of women diseases and illnesses with treatment to creating health consciousness among female population. His passion towards health care and medicine started as early as the youthful days as
+          prominent member of rescue team of water accident and drowned persons in his local village around Ibeju/ Lekki local government of Lagos state Nigeria. committee of care giver to sport injury victims 
+          regularly  in touch with elders of traditional medicine practitioners who handle victims of snake bites visitation and observation of traditional birth attendance all of the above happened before the choice  of science subjects towards becoming a Dr.
         </p>
-        <p class="mt-4 text-gray-600">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat. dolor, sit amet consectetur adipisicing elit. Aut qui hic
-          atque tenetur quis eius quos ea neque sunt, accusantium soluta minus
-          veniam tempora deserunt? Molestiae eius quidem quam repellat.
-        </p>
-
         <a
-          class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-hidden focus:ring"
+          class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
           href="/get-started"
-        >
-          <span class="text-sm font-medium"> Get Started </span>
+          >
+          <span class="text-sm font-medium">Know More </span>
         </a>
       </div>
     </div>
@@ -249,10 +238,6 @@ get_header();
 
 <?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
 
-<!-------------------------------- 
-/// 05  CTA SECTION
----------------------------------->
-<?php get_template_part( 'template-parts/content/content', 'cta' ); ?>
 
 
 <?php
