@@ -41,7 +41,7 @@ get_header();
     <div class="cont py-8">
         <div class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 ">
             <div class="grid max-w-screen-lg gap-8 row-gap-6 sm:mx-auto lg:grid-cols-2">
-                <a href="tel:+234 800 000 0000" aria-label="View item" title="View item" class="relative block p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+                <a href="tel:+234 800 000 0000" aria-label="Make a Call" title="Make a Call" class="relative block p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
                     <div class="relative flex items-center justify-between p-5 bg-white rounded-sm">
                         <div class="pr-4">
                         <h6 class="mb-2 font-semibold leading-5">
@@ -58,7 +58,7 @@ get_header();
                         </div>
                     </div>
                 </a>
-                <a href="/" aria-label="View item" title="View item" class="relative block p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+                <a href="/" aria-label="Send a Message" title="Send a Message" class="relative block p-px overflow-hidden transition duration-300 transform border rounded shadow-sm hover:scale-105 group hover:shadow-xl">
                     <div class="relative flex items-center justify-between p-5 bg-white rounded-sm">
                         <div class="pr-4">
                         <h6 class="mb-2 font-semibold leading-5">
@@ -90,8 +90,8 @@ get_header();
             <div class="max-w-xl mx-auto">
                 <div class="flex flex-col items-center justify-center p-4 md:p-8">
                     <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-center">
-                        The quick, brown fox<br class="hidden md:block" />
-                        jumps over a lazy dog
+                        Schedule Consultation<br class="hidden md:block" />
+                        or Checkups
                     </h2>
                     <p class="mb-5 text-base text-gray-700 md:text-lg md:text-center">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
@@ -101,7 +101,7 @@ get_header();
                         class="btn-primary "
                         href="/get-started"
                         >
-                            Get Started 
+                            Schedule Session 
                         </a>
                     </div>
                     <div class="flex flex-col items-center">

@@ -16,7 +16,7 @@
           <a href="submit"
           class="btn-primary"
           >
-            Get started
+            Schedule Session
           </a>
         </div>
       </div>

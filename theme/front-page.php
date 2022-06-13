@@ -36,7 +36,7 @@ get_header();
       <div class="flex flex-wrap mt-8 text-center">
         <a
           class="btn-primary"
-          href="/get-started"
+          href="<?php wp_upload_dir() ?>/contact"
         > Get Started
         </a>
       </div>
@@ -173,7 +173,7 @@ get_header();
         </p>
         <a
           class="inline-flex items-center px-8 py-3 mt-8 text-white bg-blue border border-blue rounded hover:bg-transparent hover:text-blue active:text-blue-100 focus:outline-none focus:ring"
-          href="/get-started"
+          href="<?php wp_upload_dir() ?>/about-us"
           >
           <span class="text-sm font-medium">Know More </span>
         </a>
@@ -223,9 +223,9 @@ get_header();
         <div class="btn flex justify-center">
           <a
           class="btn-primary "
-          href="/get-started"
+          href="<?php wp_upload_dir() ?>/blog"
           >
-             Get Started 
+             Learn More 
           </a>
         </div>
     </div>
