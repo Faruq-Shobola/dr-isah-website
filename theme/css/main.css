@@ -90,7 +90,19 @@ div.wpcf7 p label {
 	border: 2px solid #0000FF;
 	color: #0000FF;
 }
-
+/****************
+*** BACK TO TOP BUTTON
+*****************/
+#button {
+	bottom: 50px;
+	right: 30px;
+	transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+	opacity: 0;
+}
+#button.show {
+	opacity: 1;
+	visibility: visible;
+}
 /****************
 *** SWIPER JS
 *****************/

@@ -49,7 +49,7 @@
             </div>
         </div>
         <!-------------- BACK TO TOP -------------->
-        <a id="button" class="flex items-center justify-center z-10 text-center fixed bg-dark-green h-12 w-12 rounded-md">
+        <a id="button" class="flex items-center justify-center z-10 text-center fixed bg-blue h-10 w-10 rounded-md">
             <i class="fas fa-arrow-up text-2xl text-white hover:pointer active:pointer"></i>
         </a>
     </footer>

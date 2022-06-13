@@ -180,6 +180,13 @@ function dr_isah_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'dr_isah_scripts' );
 
+function load_scripts(){
+    //Load scripts:
+    wp_enqueue_script('jquery'); # Loading the WordPress bundled jQuery version.
+    //may add more scripts to load like jquery-ui
+}
+add_action('wp_enqueue_scripts', 'load_scripts');
+
 /**
  * Add the block editor class to TinyMCE.
  *
