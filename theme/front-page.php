@@ -23,14 +23,14 @@ get_header();
   <div class="cont relative py-32  lg:flex">
     <div class="max-w-xl text-left">
       <h1 class="text-3xl font-extrabold sm:text-5xl">
-        Let us find your
+          Promoting women’s 
         <strong class="font-extrabold text-blue sm:block">
-          Forever Home.
+          health, saving lives.
         </strong>
       </h1>
 
       <p class="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!
+        focusing on the treatment and diagnosis of Women’s health to create health consciousness in the female population.
       </p>
 
       <div class="flex flex-wrap mt-8 text-center">

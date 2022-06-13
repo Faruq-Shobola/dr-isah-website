@@ -25,7 +25,7 @@ get_header();
       <!-- Name -->
       <div class="title py-10">
         <h1 class="text-3xl text-blue font-semibold py-2 uppercase">About Me</h1>
-        <p class="text-2xl capitalize">our best services for your kids</p>
+        <p class="text-2xl capitalize">treatment to creating health consciousness among female population.</p>
 
         <!-- line -->
         <div class="h-1 rounded-sm w-24 bg-blue my-3 origin-left"></div>
@@ -87,7 +87,7 @@ get_header();
             <h6 class="mb-2 font-semibold leading-5">
               Certifications
             </h6>
-            <ol>
+            <ul class="pl-4 list-disc list-outside">
               <li class="text-sm text-gray-900">
                 B.Sc ( biochemistry) Unimaid.
               </li>
@@ -129,7 +129,7 @@ get_header();
           </div>
           <div>
             <h6 class="mb-2 font-semibold leading-5">Projects</h6>
-            <ol>
+            <ul class="pl-4 list-disc list-outside">
               <li class="text-sm text-gray-900">
                 Babies day caring for the under 5 children.
               </li>
@@ -162,7 +162,7 @@ get_header();
           </div>
           <div>
             <h6 class="mb-2 font-semibold leading-5">Awards</h6>
-            <ol>
+            <ul class="pl-4 list-disc list-outside">
             <li class="text-sm text-gray-900">
                 NMA , Nigeria medical association .
               </li>

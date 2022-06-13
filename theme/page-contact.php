@@ -25,7 +25,7 @@ get_header();
       <!-- Name -->
       <div class="title py-10">
         <h1 class="text-3xl text-blue font-semibold py-2 uppercase">Contact Me</h1>
-        <p class="text-2xl capitalize">our best services for your kids</p>
+        <p class="text-2xl capitalize">Reach out through accessible channels</p>
 
         <!-- line -->
         <div class="h-1 rounded-sm w-24 bg-blue my-3 origin-left"></div>

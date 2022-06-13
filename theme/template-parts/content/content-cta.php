@@ -8,9 +8,9 @@
         </svg>
       </div>
       <div class="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
-        <h5 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">Your new ideal style</h5>
+        <h5 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">Schedule Consultation or Checkups</h5>
         <p class="mb-5 text-gray-800">
-          <span class="font-bold">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Etiam sem neque, molestie sit amet venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend, sed consequat odio sollicitudin.
+          <span class="font-bold">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Etiam sem neque, molestie sit amet venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend,
         </p>
         <div class="flex items-center">
           <a href="submit"
